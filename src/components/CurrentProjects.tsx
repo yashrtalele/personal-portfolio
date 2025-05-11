@@ -5,7 +5,7 @@ const CurrentProjects = () => {
     {
       title: "Not-Uber",
       description: {
-        main: "End-to-end ride management system with real-time ride notifications, live location tracking, seamless payments, and in-app messaging with voice call support. Built on a scalable architecture and powered by a complete DevOps pipeline.",
+        main: "End-to-end development of ride hailing application with real-time ride notifications, live location tracking, seamless payments, and in-app messaging with voice call support. Built on a scalable architecture and powered by a complete DevOps pipeline.",
         technologies: "Expo · Node.js · Socket.IO · PostgreSQL · Redis · RabbitMQ · Kafka · Docker · Kubernetes · Nginx"
       },
       links: [
