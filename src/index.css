@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-info-header: "Azeret Mono", monospace;
+  --font-info-text: "B612 Mono", monospace;
+  --font-header: "Space Grotesk", sans-serif;
+  --font-body: "Orbit", sans-serif;
+  --font-ibm: "IBM Plex Mono", monospace;
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
