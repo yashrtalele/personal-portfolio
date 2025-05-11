@@ -4,14 +4,9 @@ import Info from './components/Info';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import CurrentProjects from './components/CurrentProjects';
-import { useLenis } from 'lenis/react';
 import Skills from './components/Skills';
 
 function App() {
-  const lenis = useLenis(({ scroll }) => {
-  })
-
-
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
