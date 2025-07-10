@@ -54,7 +54,7 @@ const Info = () => {
           </motion.span>
         </div>
         <div className="text-sm text-gray-700 dark:text-gray-300 mb-4">
-          open to work
+        {/* open to work */}
         </div>
         <div className="flex justify-center md:justify-start space-x-7">
           <a href="mailto:yash.talele97@gmail.com" className="hover:opacity-70 transition-opacity" aria-label="Email">

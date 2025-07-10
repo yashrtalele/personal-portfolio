@@ -10,15 +10,15 @@ const AboutMe = () => {
       >
         <li className="flex items-start">
           <span className="mr-2">•</span>
+          <span className="font-ibm">sde @ amazon</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-2">•</span>
           <span className="font-ibm">full stack developer</span>
         </li>
         <li className="flex items-start">
           <span className="mr-2">•</span>
-          <span className="font-ibm">final semester for master's in CS @ IIIT Bangalore</span>
-        </li>
-        <li className="flex items-start">
-          <span className="mr-2">•</span>
-          <span className="font-ibm">intern @ amazon</span>
+          <span className="font-ibm">post-graduate in CS from IIIT Bangalore</span>
         </li>
       </ul>
     </section>
